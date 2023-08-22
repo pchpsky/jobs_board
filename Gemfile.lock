@@ -54,6 +54,8 @@ GEM
     activerecord (7.0.7)
       activemodel (= 7.0.7)
       activesupport (= 7.0.7)
+    activerecord-cte (0.3.0)
+      activerecord
     activestorage (7.0.7)
       actionpack (= 7.0.7)
       activejob (= 7.0.7)
@@ -177,6 +179,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  activerecord-cte
   bootsnap
   debug
   pg (~> 1.1)
